@@ -13,6 +13,7 @@ Berikut adalah screenshot hasil implementasi tugas 1 (halaman awal dan halaman k
 ---
 
 ## Tugas 2 - Pertemuan 3
+<img width="400" src="https://raw.githubusercontent.com/flypick/PRAKTIKUM-MOBILE/main/assets/projek2.gif">
 
 ## Tugas 3 - Pertemuan 4
 <img width="200" src="https://raw.githubusercontent.com/flypick/PRAKTIKUM-MOBILE/main/assets/videoprojek.gif">
