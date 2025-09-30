@@ -13,8 +13,7 @@ Berikut adalah screenshot hasil implementasi tugas 1 (halaman awal dan halaman k
 ---
 
 ## Tugas 2 - Pertemuan 3
-<video src="https://github.com/user-attachments/assets/dedbe941-7b41-4e0c-bed9-3247fc139ab2" width="400">
 
 ## Tugas 3 - Pertemuan 4
-<video src="https://raw.githubusercontent.com/flypick/PRAKTIKUM-MOBILE/main/assets/video projek.webm" width="400">
+<img src="https://raw.githubusercontent.com/flypick/PRAKTIKUM-MOBILE/main/assets/video-projek.gif" width="200">
 
