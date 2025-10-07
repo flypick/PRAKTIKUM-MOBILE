@@ -1,0 +1,18 @@
+<resources>
+    <!-- In your AppTheme -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Change this line -->
+        <item name="bottomSheetDialogTheme">@style/ThemeOverlay.AppCompat.BottomSheetDialog</item>
+    </style>
+
+    <!-- To match this existing style name -->
+    <style name="ThemeOverlay.AppCompat.BottomSheetDialog" parent="@style/ThemeOverlay.MaterialComponents.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/Widget.App.BottomSheet.Modal</item>
+    </style>
+
+    <style name="Widget.App.BottomSheet.Modal"
+        parent="@style/Widget.MaterialComponents.BottomSheet.Modal">
+        <item name="android:background">@drawable/bg_rounded</item>
+    </style>
+
+</resources>

@@ -21,7 +21,7 @@ class Halaman2Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityHalaman2Binding.inflate(layoutInflater)
-        setContentView(R.layout.activity_halaman2)
+        setContentView(binding.root)
 
         initLayout()
         initListener()
@@ -33,17 +33,21 @@ class Halaman2Activity : AppCompatActivity() {
             it.tvLayout.setText(R.string.alamat)
         }
 
-        binding.layoutLocation.let {
+        binding.layoutEmail.let {
             it.imgIcon.setImageResource(R.drawable.ic_email)
             it.tvLayout.setText(R.string.email)
         }
-        binding.layoutLocation.let {
+        binding.layoutIg.let {
             it.imgIcon.setImageResource(R.drawable.ic_himpunan)
             it.tvLayout.setText(R.string.ig_himpunan)
         }
-        binding.layoutLocation.let {
+        binding.layoutPhone.let {
             it.imgIcon.setImageResource(R.drawable.ic_phone)
             it.tvLayout.setText(R.string.telepon)
+        }
+        binding.layoutBuku.let {
+            it.imgIcon.setImageResource(R.drawable.ic_book)
+            it.tvLayout.setText(R.string.book)
         }
     }
 
@@ -71,6 +75,9 @@ class Halaman2Activity : AppCompatActivity() {
                 data = "tel:${getString(R.string.telepon)}".toUri()
             }
             startActivity(intent)
+        }
+        binding.layoutBuku.root.setOnClickListener {
+            startActivity(Intent(this, DaftarBukuActivity::class.java))
         }
         binding.btnBack.setOnClickListener {
             finish()
